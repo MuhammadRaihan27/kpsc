@@ -1,0 +1,52 @@
+.title {
+  margin-top: 2rem;
+}
+.title h5 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--color2);
+}
+
+.title h2 {
+  font-weight: 600;
+  color: var(--color1);
+}
+
+.deks {
+  margin-top: 2rem;
+}
+
+.deks p {
+  font-family: var(--Lato);
+  font-weight: 400;
+  color: var(--color3);
+  /* text-align: justify; */
+}
+
+.deks p:nth-child(2) {
+  margin-top: 1.8rem;
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .title h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .title h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 342px) {
+  .title h2 {
+    font-size: 1.6rem;
+  }
+}
