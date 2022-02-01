@@ -70,6 +70,6 @@ btnBullet3.addEventListener("click", () => {
   content2.classList.remove("active");
 
   btnBullet3.classList.add("active");
-  btnBullet1.classList.add("active");
+  btnBullet1.classList.remove("active");
   btnBullet2.classList.remove("active");
 });
