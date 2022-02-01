@@ -26,11 +26,11 @@ if (window.innerWidth < 526) {
 }
 
 // Change Image Section 2
-const imageSec2 = document.getElementById("img-area2");
-const Image2 = "./assets/img/Home/Section2/mobile.png";
-if (window.innerWidth < 992) {
-  imageSec2.innerHTML = `<img src="${Image2}" alt="Image Mesin" />`;
-}
+// const imageSec2 = document.getElementById("img-area2");
+// const Image2 = "./assets/img/Home/Section2/mobile.png";
+// if (window.innerWidth < 992) {
+//   imageSec2.innerHTML = `<img src="${Image2}" alt="Image Mesin" />`;
+// }
 
 // How We Work
 
@@ -46,27 +46,30 @@ const deksBullet = document.querySelector(".work .content p");
 content1.classList.add("active");
 btnBullet1.addEventListener("click", () => {
   content1.classList.add("active");
+  content2.classList.remove("active");
+  content3.classList.remove("active");
+
   btnBullet1.classList.add("active");
   btnBullet2.classList.remove("active");
   btnBullet3.classList.remove("active");
-  content2.classList.remove("active");
-  content3.classList.remove("active");
 });
 
 btnBullet2.addEventListener("click", () => {
   content2.classList.add("active");
+  content1.classList.remove("active");
+  content3.classList.remove("active");
+
   btnBullet2.classList.add("active");
   btnBullet1.classList.remove("active");
   btnBullet3.classList.remove("active");
-  content1.classList.remove("active");
-  content3.classList.remove("active");
 });
 
 btnBullet3.addEventListener("click", () => {
   content3.classList.add("active");
-  btnBullet3.classList.add("active");
-  btnBullet3.classList.add("active");
-  btnBullet2.classList.remove("active");
   content1.classList.remove("active");
   content2.classList.remove("active");
+
+  btnBullet3.classList.add("active");
+  btnBullet1.classList.add("active");
+  btnBullet2.classList.remove("active");
 });
