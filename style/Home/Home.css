@@ -542,6 +542,39 @@
 
 /* Section 6 */
 
+/* Section 7 */
+
+#sec-7 {
+  margin-top: 7rem;
+}
+
+#sec-7 .col-lg-6 {
+  display: flex;
+  gap: 1rem;
+}
+
+#sec-7 .testimoni {
+  height: 12rem;
+  margin-top: 5rem;
+}
+
+#sec-7 .testi {
+  position: relative;
+}
+
+#sec-7 .testi img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5rem;
+}
+
+#sec-7 .swiper-pagination-bullet {
+  background-color: var(--color2);
+}
+
+/* Section 7 */
+
 /* Breakpoint */
 
 @media (max-width: 991px) {
@@ -619,6 +652,14 @@
   }
 
   /* ----- Section 5 ----- */
+
+  /* ----- Section 7 ----- */
+
+  #sec-7 .row .col-lg-6:nth-child(2) {
+    display: none;
+  }
+
+  /* ----- Section 7 ----- */
 }
 
 @media (max-width: 945px) {
@@ -681,6 +722,14 @@
   }
 
   /* ----- Section 1 ----- */
+
+  /* ----- Section 7 ----- */
+
+  #sec-7 .testimoni {
+    height: 14rem;
+  }
+
+  /* ----- Section 7 ----- */
 }
 
 @media (max-width: 515px) {
@@ -764,6 +813,20 @@
   /* ----- Section 3 ----- */
 }
 
+@media (max-width: 422px) {
+  /* ----- Section 7 ----- */
+
+  #sec-7 .testimoni {
+    height: 20rem;
+  }
+
+  #sec-7 .col-lg-6 {
+    flex-direction: column;
+  }
+
+  /* ----- Section 7 ----- */
+}
+
 @media (max-width: 411px) {
   /* ----- Section 1 ----- */
 
@@ -792,6 +855,16 @@
   }
 
   /* ----- Section 4 ----- */
+}
+
+@media (max-width: 365px) {
+  /* ----- Section 7 ----- */
+
+  #sec-7 .testimoni {
+    height: 22rem;
+  }
+
+  /* ----- Section 7 ----- */
 }
 
 @media (max-width: 320px) {

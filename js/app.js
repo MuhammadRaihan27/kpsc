@@ -73,3 +73,12 @@ btnBullet3.addEventListener("click", () => {
   btnBullet1.classList.remove("active");
   btnBullet2.classList.remove("active");
 });
+
+// Contact
+// const btnContact = document.querySelector(".btn-contact");
+
+// const formContact = document.querySelector(".contact");
+
+// btnContact.addEventListener("click", () => {
+//   formContact.classList.toggle("active");
+// });
