@@ -3,9 +3,10 @@
 @import url("./Navbar.css");
 @import url("./Footer.css");
 @import url("./Contact.css");
-@import url("./Home/Home.css");
 @import url("./__Utilities.css");
 @import url("./__Global.css");
+@import url("./Home/Home.css");
+@import url("./About/About.css");
 
 * {
   margin: 0;

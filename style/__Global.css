@@ -1,6 +1,9 @@
 main {
   position: relative;
 }
+
+/* Title & Deks */
+
 .title {
   margin-top: 2rem;
 }
@@ -23,36 +26,53 @@ main {
   font-family: var(--Lato);
   font-weight: 400;
   color: var(--color3);
-  /* text-align: justify; */
 }
 
 .deks p:nth-child(2) {
   margin-top: 1.8rem;
 }
 
-/* .contact {
-  width: 45rem;
-  position: fixed;
-  left: -43rem;
-  top: 20%;
-  background: var(--color2);
-  padding: 1rem;
+/* Title & Deks */
+
+/* Bar Info */
+
+#bar-info {
+  position: relative;
   display: flex;
-  padding-left: 4rem;
-  z-index: 999;
-  transition: 0.3s ease;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../../assets/img/Bar-Info/bar-info-img.png") no-repeat center;
+  background-size: cover;
+  height: 25rem;
 }
 
-.contact.active {
+#bar-info::before {
+  content: "";
+  position: absolute;
+  top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color1);
+  opacity: 78%;
 }
 
-.contact .btn-contact .iconify {
-  font-size: 1.5rem;
-  margin-left: 1.5rem;
-  transform: translateX(8px);
-  cursor: pointer;
-} */
+#bar-info .col-lg-12 {
+  color: var(--colorWhite);
+  z-index: 9;
+}
+
+#bar-info .col-lg-12 h1 {
+  font-weight: 600;
+}
+
+#bar-info .col-lg-12 a {
+  color: var(--color2);
+  text-decoration: none;
+}
+
+/* Bar Info */
 
 @media (max-width: 575px) {
   .container {

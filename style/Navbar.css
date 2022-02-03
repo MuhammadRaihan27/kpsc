@@ -74,8 +74,16 @@ header .bar-info {
 }
 
 header .child {
-  gap: 1.5rem;
+  gap: 1rem;
   margin-left: auto;
+}
+
+header .child .box {
+  gap: 0.5rem;
+}
+
+header .child .iconify {
+  font-size: 1.7rem;
 }
 
 @media (max-width: 991px) {
@@ -92,7 +100,7 @@ header .child {
   }
 }
 
-@media (max-width: 934px) {
+@media (max-width: 955px) {
   .navbar .container-fluid {
     padding: 1rem 2rem;
   }
@@ -103,7 +111,7 @@ header .child {
   }
 
   .navbar .nav-brand img {
-    width: 14rem;
+    width: 10rem;
   }
 
   .navbar .nav-group {
