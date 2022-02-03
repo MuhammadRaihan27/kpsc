@@ -63,7 +63,7 @@
   gap: 0.5rem;
 }
 
-#footer .nav-link a:hover {
+#footer .nav-link a {
   text-decoration: underline;
 }
 
