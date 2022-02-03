@@ -109,7 +109,7 @@
 #contact input,
 #contact textarea {
   border: none;
-  border-bottom: 2px solid var(--color3);
+  border-bottom: 1px dashed var(--color3);
   border-radius: 0px;
   box-shadow: none;
 }
@@ -175,6 +175,19 @@
     right: -8rem;
     bottom: -8rem;
     width: 20rem;
+  }
+}
+
+@media (max-width: 575px) {
+  #contact {
+    padding: 1rem;
+  }
+
+  #contact .container {
+    padding: 1rem;
+  }
+
+  #contact .col-lg-5 {
   }
 }
 

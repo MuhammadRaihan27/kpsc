@@ -1,9 +1,9 @@
 // Navbar Change Logo
 
 const Logo = document.getElementById("nav-brand");
-const Image = "./assets/img/Logo-Mini.png";
+const Image = "./assets/img/Logo-Kpsc-Kujang.png";
 if (window.innerWidth < 935) {
-  Logo.innerHTML = `<img src="${Image}" alt="Logo KPSC" />`;
+  Logo.innerHTML = `<img src="${Image}" alt="Logo Kujang" />`;
 }
 
 // Navbar Toggler Mobile
@@ -34,45 +34,45 @@ if (window.innerWidth < 526) {
 
 // How We Work
 
-const btnBullet1 = document.querySelector(".bullet1");
-const btnBullet2 = document.querySelector(".bullet2");
-const btnBullet3 = document.querySelector(".bullet3");
-const content1 = document.querySelector(".content1");
-const content2 = document.querySelector(".content2");
-const content3 = document.querySelector(".content3");
-const headingBullet = document.querySelector(".work .content h1");
-const deksBullet = document.querySelector(".work .content p");
+if ((window.Location.href = "index.html")) {
+  const btnBullet1 = document.querySelector(".bullet1");
+  const btnBullet2 = document.querySelector(".bullet2");
+  const btnBullet3 = document.querySelector(".bullet3");
+  const content1 = document.querySelector(".content1");
+  const content2 = document.querySelector(".content2");
+  const content3 = document.querySelector(".content3");
 
-content1.classList.add("active");
-btnBullet1.addEventListener("click", () => {
   content1.classList.add("active");
-  content2.classList.remove("active");
-  content3.classList.remove("active");
+  btnBullet1.addEventListener("click", () => {
+    content1.classList.add("active");
+    content2.classList.remove("active");
+    content3.classList.remove("active");
 
-  btnBullet1.classList.add("active");
-  btnBullet2.classList.remove("active");
-  btnBullet3.classList.remove("active");
-});
+    btnBullet1.classList.add("active");
+    btnBullet2.classList.remove("active");
+    btnBullet3.classList.remove("active");
+  });
 
-btnBullet2.addEventListener("click", () => {
-  content2.classList.add("active");
-  content1.classList.remove("active");
-  content3.classList.remove("active");
+  btnBullet2.addEventListener("click", () => {
+    content2.classList.add("active");
+    content1.classList.remove("active");
+    content3.classList.remove("active");
 
-  btnBullet2.classList.add("active");
-  btnBullet1.classList.remove("active");
-  btnBullet3.classList.remove("active");
-});
+    btnBullet2.classList.add("active");
+    btnBullet1.classList.remove("active");
+    btnBullet3.classList.remove("active");
+  });
 
-btnBullet3.addEventListener("click", () => {
-  content3.classList.add("active");
-  content1.classList.remove("active");
-  content2.classList.remove("active");
+  btnBullet3.addEventListener("click", () => {
+    content3.classList.add("active");
+    content1.classList.remove("active");
+    content2.classList.remove("active");
 
-  btnBullet3.classList.add("active");
-  btnBullet1.classList.remove("active");
-  btnBullet2.classList.remove("active");
-});
+    btnBullet3.classList.add("active");
+    btnBullet1.classList.remove("active");
+    btnBullet2.classList.remove("active");
+  });
+}
 
 // Contact
 // const btnContact = document.querySelector(".btn-contact");

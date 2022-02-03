@@ -94,19 +94,20 @@ header .child {
 
 @media (max-width: 934px) {
   .navbar .container-fluid {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
   }
 
   .navbar .nav-brand {
     position: inherit;
+    flex: 0.8;
   }
 
   .navbar .nav-brand img {
-    width: 4rem;
+    width: 14rem;
   }
 
   .navbar .nav-group {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 0;
@@ -186,5 +187,11 @@ header .child {
     opacity: 0;
     display: none;
     position: absolute;
+  }
+}
+
+@media (max-width: 431px) {
+  .navbar .nav-brand img {
+    width: 10rem;
   }
 }

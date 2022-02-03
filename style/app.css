@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 @import url("./Navbar.css");
+@import url("./Footer.css");
 @import url("./Contact.css");
 @import url("./Home/Home.css");
 @import url("./__Utilities.css");
@@ -18,5 +19,5 @@ p {
 }
 
 body {
-  height: 1000rem;
+  /* height: 1000rem; */
 }
