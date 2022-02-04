@@ -137,7 +137,7 @@
               </div>
               <div class="bussiness-item">
                 <div class="bussiness-title">
-                  <div class="circle">03</div>
+                  <div class="circle mobile-02">03</div>
                   <h4>Skilled Man Power</h4>
                 </div>
                 <div class="bussiness-details">
@@ -179,7 +179,7 @@
               </div>
               <div class="bussiness-item">
                 <div class="bussiness-title">
-                  <div class="circle">05</div>
+                  <div class="circle mobile-03">05</div>
                   <h4>Laboratory</h4>
                 </div>
                 <div class="bussiness-details">
@@ -231,7 +231,7 @@
             <div class="col-lg-6 col-md-6 bussiness-wrapper">
               <div class="bussiness-item">
                 <div class="bussiness-title">
-                  <div class="circle">02</div>
+                  <div class="circle mobile-04">02</div>
                   <h4>Plant Maintenance</h4>
                 </div>
                 <div class="bussiness-details">
@@ -272,7 +272,7 @@
               </div>
               <div class="bussiness-item">
                 <div class="bussiness-title">
-                  <div class="circle">04</div>
+                  <div class="circle mobile-05">04</div>
                   <h4>Plant Turn Around</h4>
                 </div>
                 <div class="bussiness-details">
@@ -640,7 +640,22 @@
 
     <!-- Iconify -->
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
-    <script src="js/app.js"></script>
     <script src="js/slider.js"></script>
+
+    <script>
+      // Change bullet number in service
+      const bullet2 = document.querySelector(".mobile-02");
+      const bullet3 = document.querySelector(".mobile-03");
+      const bullet4 = document.querySelector(".mobile-04");
+      const bullet5 = document.querySelector(".mobile-05");
+
+      if (window.innerWidth < 768) {
+        console.log("asdasdasdas");
+        bullet2.textContent = "02";
+        bullet3.textContent = "03";
+        bullet4.textContent = "04";
+        bullet5.textContent = "05";
+      }
+    </script>
   </body>
 </html>

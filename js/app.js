@@ -42,7 +42,7 @@ if ((window.Location.href = "index.html")) {
   const content2 = document.querySelector(".content2");
   const content3 = document.querySelector(".content3");
 
-  content1.classList.add("active");
+  // content1.classList.add("active");
   btnBullet1.addEventListener("click", () => {
     content1.classList.add("active");
     content2.classList.remove("active");
@@ -74,11 +74,17 @@ if ((window.Location.href = "index.html")) {
   });
 }
 
-// Contact
-// const btnContact = document.querySelector(".btn-contact");
+// Change bullet number in service
+const bullet2 = document.getElementsByClassName(".mobile-02");
+// const bullet3 = document.querySelector(".mobile-03");
+// const bullet4 = document.querySelector(".mobile-04");
+// const bullet5 = document.querySelector(".mobile-05");
 
-// const formContact = document.querySelector(".contact");
+if (window.innerWidth < 768) {
+  console.log("asdasd");
+  bullet2.textContent = "02";
 
-// btnContact.addEventListener("click", () => {
-//   formContact.classList.toggle("active");
-// });
+  bullet3.textContent = "03";
+  bullet4.textContent = "04";
+  bullet5.textContent = "05";
+}
