@@ -7,6 +7,7 @@
 @import url("./__Global.css");
 @import url("./Home/Home.css");
 @import url("./About/About.css");
+@import url("./Service/Service.css");
 
 * {
   margin: 0;
