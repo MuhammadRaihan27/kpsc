@@ -47,6 +47,13 @@ main {
   height: 25rem;
 }
 
+#bar-info .tooltop {
+  position: absolute;
+  width: 22rem;
+  top: 0;
+  left: 0;
+}
+
 #bar-info::before {
   content: "";
   position: absolute;
